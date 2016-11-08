@@ -114,8 +114,8 @@ if __name__ is '__main__':
         sys.exit(2)
     
     starting_directory = os.getcwd()
+    
     # Try to run the script
-
     try: startProject(sys.argv[1], sys.argv[2], sys.argv[3:])
     # If the script failed, return to the original directory
     except:
